@@ -1,6 +1,6 @@
-package com.your_name.your_mod_id.registry;
+package com.Aydre_Mourad.craft2024.registry;
 
-import com.your_name.your_mod_id.YourModID;
+import com.Aydre_Mourad.craft2024.craft2024;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -10,7 +10,7 @@ import java.util.function.Supplier;
 
 public class YMIBlocks {
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(YourModID.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(craft2024.MOD_ID);
 
     //Blocks go here
 
